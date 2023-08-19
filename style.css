@@ -13,7 +13,7 @@ header{
   border-bottom-right-radius: 15px;
 }
 .corpo{
-  background-color: rgb(195, 205, 212);
+  background-color: rgb(192, 198, 204);
   width: 100%;
   height:auto;
   display: flex;
@@ -30,10 +30,16 @@ header{
   margin-bottom: 0;
 }
 .corpo-produto{
-  background-color: rgb(138, 145, 151);
+  background-color: rgb(223, 227, 230);
   width: calc(100% - 40px);
   height:150px;
-  margin: 10px auto 5px auto;
+  margin: 10px auto 20px auto;
   border-radius: 15px;
   padding: 10px;
+}
+.nome-produto p{
+  color: rgb(0, 0, 0);
+}
+.descrição p{
+  color: gray;
 }
