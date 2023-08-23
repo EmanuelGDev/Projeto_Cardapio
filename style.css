@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   padding: 0;
   margin: 0;
@@ -13,12 +16,25 @@ header{
   border-bottom-right-radius: 15px;
 }
 .barra{
-  background-color:gray ;
+  background-color: rgb(192, 198, 204);
   width: auto;
+  height: 25px;
   display: flex;
   justify-content: space-around;
   border-radius: 15px;
   font-weight: 700;
+}
+.barra a{
+  text-decoration: none;
+  color: brown;
+}
+.barra a:visited{
+  background-color: transparent;
+  color: #000000;
+}
+.barra a:hover{
+  background-color: rgb(165, 165, 165);
+  color: #000;
 }
 .corpo{
   background-color: rgb(192, 198, 204);
