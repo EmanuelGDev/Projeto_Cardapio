@@ -12,6 +12,14 @@ header{
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+.barra{
+  background-color:gray ;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+  font-weight: 700;
+}
 .corpo{
   background-color: rgb(192, 198, 204);
   width: 100%;
@@ -19,8 +27,7 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-radius: 15px;
   margin-top: 20px;
 }
 .titulos{
@@ -31,7 +38,7 @@ header{
 }
 .corpo-produto{
   background-color: rgb(223, 227, 230);
-  width: calc(100% - 40px);
+  width: calc(100% - 500px);
   height:150px;
   margin: 10px auto 20px auto;
   border-radius: 15px;
